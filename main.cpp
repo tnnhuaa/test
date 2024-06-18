@@ -158,13 +158,13 @@ Passenger** findMinWeight(Passenger*** P, int p, int m, int n, int x, int y)
 
 int main()
 {
-    Passenger*** pas;
-    int p, m, n;
-    pas = readFile("F:\\Source CodeBlock\\ReiewTest1\\ReviewTest1\\train.txt", p, m ,n);
-
-    Passenger** subP;
-    subP = findMinWeight(pas, p, m, n, 2, 2);
-    print2D(subP, 2, 2);
+//    Passenger*** pas;
+//    int p, m, n;
+//    pas = readFile("F:\\Source CodeBlock\\ReiewTest1\\ReviewTest1\\train.txt", p, m ,n);
+//
+//    Passenger** subP;
+//    subP = findMinWeight(pas, p, m, n, 2, 2);
+//    print2D(subP, 2, 2);
 
     return 0;
 }
